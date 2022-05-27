@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="current_weather_short_info">%1$s\n%2$d°/\%3$d°\nFeels like %4$d°</string>
+    <string name="standard_temperature">%1$s°C</string>
+    <string name="without_sign_temp">%1$s°</string>
+    <string name="metric_temperature">%1$s K</string>
+    <string name="imperial_temperature">%1$s°F</string>
+    <string name="humidity">%1$s</string>
+    <string name="standard_wind_speed">%1$s m/s</string>
+    <string name="imperial_wind_speed">%1$s mph</string>
+    <string name="pressure">%1$s hPa</string>
+    <string name="search_hint">Search</string>
+    <string name="humidity_hardcoded">Humidity</string>
+    <string name="pressure_hardcoded">Pressure</string>
+    <string name="wind_hardcoded">Wind</string>
+    <string name="visibility_hardcoded">Visibility</string>
+    <string name="clouds_hardcoded">Clouds</string>
+    <string name="search_input_hint">Search</string>
+    <string name="clouds">%1$s</string>
+    <string name="add_location_placeholder">Please add a location</string>
+</resources>

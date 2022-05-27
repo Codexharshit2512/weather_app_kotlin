@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.detailsScreen.DetailScreenFragment"
+    android:background="@color/dark_bg">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/details_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/dark_bg"
+                android:minHeight="?attr/actionBarSize"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp"
+                app:navigationIcon="@drawable/back_icon"
+                />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- TODO: Update blank fragment layout -->
+   <fragment
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.4"
+       android:id="@+id/details_frag_1"
+       android:name="com.example.sunshine.ui.detailsScreen.JumbotronDetails"
+       tools:layout="@layout/fragment_jumbotron_details"
+       />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.6"
+    android:gravity="center_horizontal"
+    >
+    <fragment
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/details_frag_2"
+        android:name="com.example.sunshine.ui.detailsScreen.SideDetails"
+        tools:layout="@layout/fragment_side_details"
+        />
+</LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
